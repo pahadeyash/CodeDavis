@@ -4,152 +4,71 @@
 3) Home, Practice, About sections needs to be aligned properly.
 4) Entire countdown timer. Something like the image I sent. I think it's countdown.jpeg 
 5) Put a "Learn More" link underneath the countdown timer. When the user clicks on it, he/she will be directed to a page that contains the rules for the competition. 
-
 6) The width of the countdown timer changes everytime the number of digits change from 2 to 1 or vice-versa.
 */
 
 
-* {
-    margin: 0px;
-    padding: 0px;
-    list-style-type: none;
-}
+ h1{
+    position: relative; top:80px;
+    text-align: center;
+  }
+  table {
+      position: relative; top:100px;
+      text-align: center;     
+  }
 
-body {
-    padding: 2%;
-    background-color: #6E6E6E;
-}
+  p{
+    position: relative; top:100px;
+    text-align: center;
 
+  }
+  .row1 td {
+      height: 200px;
+      background-color: aqua;      
+      color: white;
+      font-size: 100%;
+  }
 
-/* Image, Sign Up, Sign In */
-
-
-.header {
-    background-color: skyblue;
-    text-align: left;
-}
-
-.logo {
-    width: 7%;
-}
-
-.header ul {
-    float: right;
-    padding: 3% 3%;
-}
-
-.header ul li {
-    display: inline;
-}
-
-.header a {
-    text-decoration: none;
+  .row2 {
     font-size: 150%;
-    background: #fa5559;
-    color: white;
-    border: 1px solid black;
-}
+  }
 
+  .row2 td {
+      font-weight: bold;
+      text-transform: uppercase;
+      color: black;
+  }
 
-/* Home, Practice, About */ 
+  #days {
+      padding: 3%;
+      font-weight: bold;
+      font-size: 600%;
+      background: #fa5559;
+  }
 
+  #hours {
+      padding: 3%;
+      font-weight: bold;
+      font-size: 600%;
+      background: #26c2b9;
 
-.links {
-    width: 100%;
-    margin: 1% auto;
-    overflow: hidden;
-}
+  }
 
-.links li {
-    display: block;
-    float: left;
-    background: #f6bc58;
-    color: white;
-    border: 1px solid black;
-    width: 33%;
-    text-align: center;    
-    padding: 1% 0;
-}
+  #minutes {
+      padding: 3%;
+      font-weight: bold;
+      font-size: 600%;
+      background: #f6bc58;
+     
+  }
 
-.links a {
-    text-decoration: none;
-    color: white;
-}
+  #seconds {
+      padding: 3%;
+      font-weight: bold;
+      font-size: 600%;
+      background: #2dcb74;
+  }
 
-.links li.active, li:hover {
-    background: #2dcb74;
-}
-
-/* Countdown Timer */
-
-section {
-    margin-top: 1% auto; 
-}
-
-.table {
-    width: 100%;
-    text-align: center;
-    background: #6E6E6E;
-}
-
-#timerTitle {
-    font-size: 300%;
-    font-family: tahoma;
-    color: white;
-    letter-spacing: 2px;
-    padding: 3%;
-}
-
-.row1 td {
-    height: 40px;
-    background-color: aqua;
-    
-    border-radius: 2%;
-    border: 1px solid black;
-    padding: 3%;
-    
-    color: white;
-    font-size: 600%;
-}
-
-.row2 td {
-    text-transform: uppercase;
-    color: white;
-}
-
-#days {
-    background: #fa5559;
-}
-
-#hours {
-    background: #26c2b9;
-
-}
-
-#minutes {
-    background: #f6bc58;
-   
-}
-
-#seconds {
-    background: #2dcb74;
-}
-
-/* Learn More */
-
-.footer {
-    text-align: center;
-    font-size: 200%;
-    margin-top: 3%;
-    
-    width: 100%;
-    
-}
-
-.footer a {
-    color: #fff;
-    font-family: tahoma;
-
-    background-color: skyblue;
-    padding: 1%;
+.main_content {
+  margin: 0 2%;
 }
